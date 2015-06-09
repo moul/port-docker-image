@@ -70,7 +70,7 @@ IMAGE_NAME=$(echo "$IMAGE" | cut -d: -f1)
 repos=""
 repos="$repos $REPO"
 repos="$repos $IMAGE_NAME"
-repos="$repos $(echo "$IMAGE_NAME" | sed 's|/|/docker-|')"
+repos="$repos ${IMAGE_NAME//\///docker-}"
 repos="$repos $IMAGE_NAME-docker"
 
 (
