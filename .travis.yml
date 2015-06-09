@@ -1,0 +1,8 @@
+language: bash
+
+install:
+ - mkdir -p build && curl -sLk https://github.com/caarlos0/shell-ci-build/archive/master.tar.gz | tar -C build --strip=1 -xzf -
+ - ./build/install.sh
+
+script:
+  - ./build/build.sh
