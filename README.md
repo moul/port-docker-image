@@ -1,5 +1,5 @@
 # port-docker-image
-[![Build Status](https://travis-ci.org/scaleway/port-docker-image.svg?branch=master)](https://travis-ci.org/scaleway/port-docker-image)
+[![Build Status](https://travis-ci.org/moul/port-docker-image.svg?branch=master)](https://travis-ci.org/moul/port-docker-image)
 
 
 This script was used to convert a lot of **x86_64** images for **armhf**
