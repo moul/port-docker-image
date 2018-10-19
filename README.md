@@ -1,5 +1,5 @@
 # port-docker-image
-[![Build Status](https://travis-ci.org/moul/port-docker-image.svg?branch=master)](https://travis-ci.org/moul/port-docker-image)
+[![Build Status](https://travis-ci.org/moul/port-docker-image.svg?branch=master)](https://travis-ci.org/moul/port-docker-image) [![GuardRails badge](https://badges.production.guardrails.io/moul/port-docker-image.svg)](https://www.guardrails.io)
 
 
 This script was used to convert a lot of **x86_64** images for **armhf**
